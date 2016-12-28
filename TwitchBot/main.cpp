@@ -3,7 +3,7 @@
 
 int main()
 {
-	Bot *chatBot = new Bot("NICK royalbotjr\r\n", "USER royalbotjr\r\n", "PASS oauth:p7vxe7h7nvn0oz4n8yqosapfrlwa4w\r\n");
+	Bot *chatBot = new Bot("NICK  //username in lower", "USER //bots username", "PASS oauth://oauth key");
 
 	chatBot->Startup();
 	chatBot->login();
